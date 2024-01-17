@@ -20,4 +20,4 @@ Outcome of encoder layer (words embeddings with the size of 400) is used in orde
 
 A new dataset is chosen from the dumps of wikipedia (https://dumps.wikimedia.org/mirrors.html).
 Model architecture is created with negative sampling algorithm.
-A subsampling algorithm that removes (based on unigram distribution) the words that are considered as outliers is implemented as well. However, due to the lack of qualified hardware, used new dataset was low size. Therefore, subsampling is NOT applied upon the text data. With a high-level machine, higher size of data can be chosen and a better performing Turkish word2vec model can be trained using the subsampling algorithm as well.
+A subsampling algorithm that removes (based on frequency ratio of each word) the words that are considered as outliers is implemented as well. Due to the lack of qualified hardware and limited dataset, subsampling is NOT applied upon the text data. With a higher-level machine and a higher size of data can be chosen and a better performing Turkish word2vec model can be trained using the subsampling algorithm.
