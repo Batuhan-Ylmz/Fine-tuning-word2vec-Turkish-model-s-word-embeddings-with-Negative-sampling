@@ -1,6 +1,6 @@
 # Fine-Tuning word2vec Turkish models' word embeddings with Negative sampling, word extracting and dimension reduction ( autoencoders )
 
-A Turkish word2vec model proposed by Abdulllatif Koksal (https://github.com/akoksal) using the Gensim library is fine-tuned with negative sampling and word extracting algorithm.
+A Turkish word2vec model proposed by Abdullatif Koksal (https://github.com/akoksal) using the Gensim library is fine-tuned with negative sampling and word-extracting algorithm after dimension-reduction using AutoEncoders.
 
 # Downloading the Model
 
